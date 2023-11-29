@@ -1,0 +1,160 @@
+body {
+	/*padding-top: 50px;*/
+	padding-top: 0px;
+	color: #404040;
+	font-weight: 400;
+	letter-spacing: 0.1px;
+    font-family: "Nunito", "TitilliumWeb";
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("./font/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("./font/Nunito-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	color: #333333;
+}
+
+a:link, a:visited, a:active {
+	color: #4A82E1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #6699FF;
+	text-decoration: none;
+}
+
+a.comment-link {
+	color: #C37777;
+}
+
+a.comment-link:hover {
+	color: #DF8D8D;
+}
+
+.text-hl {
+	color: #0A942F;
+}
+
+.social-link > a {
+	color: #AAA;
+}
+
+.social-link > a:hover {
+	color: #C0C0C0;
+	text-decoration: none;
+}
+
+li.lst-space {
+	margin: 0 0 10px 0;
+}
+
+li.lst-left {
+	padding-left: 4px;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #FFF !important;
+  border-color: #e7e7e7;
+  transition: background-color 200ms linear;
+}
+
+.navbar-default .navbar-brand {
+	font-weight: bold;
+	color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:visited, .navbar-default .navbar-brand:link {
+	color: #FFF;
+}
+
+.navbar-default .navbar-brand.scrolled:hover, .navbar-default .navbar-brand.scrolled:visited {
+	color: #333333;
+}
+
+.navbar-default .navbar-brand.scrolled {
+	color: #333333; 
+	transition: color 200ms linear;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav {
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav.scrolled > li > a {
+	color: #333333;
+	transition: color 200ms linear;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #DDD;
+}
+
+.navbar-default .navbar-nav.scrolled > li > a:hover {
+	color: #AAA;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle.scrolled {
+	border-color: #DDD;
+}
+
+.bio-back {
+	width:100%;
+	height:calc(100% - 1px);
+	background: #001933 url('photos/background.jpg');
+	background-size:cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.container-narrow1 {
+	margin: 0 auto;
+	max-width: 970px;
+}
+
+.container-narrow2 {
+	margin: 0 auto;
+	max-width: 970px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container-narrow3 {
+	margin: 0 auto;
+	max-width: 850px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFF;
+}
+
+.circle-img {
+    margin: 0px auto;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #FFF;
+}
+
+
+
